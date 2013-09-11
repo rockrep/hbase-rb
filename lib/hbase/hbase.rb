@@ -5,7 +5,9 @@
 #
 
 require 'thrift'
-require 'hbase_types'
+# Disabled.  Failed to Load in Ruby 2.0.  Loaded previously
+# in hbase-rb.rb
+#require 'hbase_types'
 
 module Apache
   module Hadoop
